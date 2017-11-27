@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script>
+function validateEmail() {
+    var x = document.Email["email"].value;
+    if (x == "") {
+        alert("EmailId must be filled out");
+        return false;
+        else if (x == "")
+        	{
+        	alert("EmailId is not in correct format");
+        	return false;
+        	}
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="email"
+onsubmit="return validateForm()" method="post">
+Email: <input type="email">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

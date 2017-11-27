@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<script>
+$(document).ready(function(){
+    $("option").selector(function(){
+        $("input:text").val("newyork");
+        $("input:text").val("newyark");
+        $("input:text").val("nebraska");
+        $("input:text").val("newjersey");
+        $("input:text").val("newhaven");
+    });
+});
+</script>
+</head>
+<body>
+
+<p>city <input type="text"  name="user"></p>
+
+<button>search city</button>
+
+</body>
+</html>
